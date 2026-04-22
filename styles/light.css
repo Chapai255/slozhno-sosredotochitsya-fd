@@ -9,7 +9,8 @@
         --background-image: url('../images/cover-image-light.png');
         --background-color: #fff1f7;
         --accent-color: #FF8DCB;
-        --accent-color-transporent: rgba(255, 141, 203, 0.4);
+        --section-title-color: #353430;
+        --section-title-color-transporent: rgba(53, 52, 48, 0.4);
         --head-title-color: #FFC2E6;
         --content-title-color: #353430;
         --main-text-color: #353430;
@@ -25,6 +26,8 @@
                 --background-image: url('../images/cover-image-light.png');
                 --background-color: #fff1f7;
                 --accent-color: #FF8DCB;
+                --section-title-color: #353430;
+                --section-title-color-transporent: rgba(53, 52, 48, 0.4);
                 --accent-color-transporent: rgba(255, 141, 203, 0.4);
                 --head-title-color: #FFC2E6;
                 --content-title-color: #353430;
