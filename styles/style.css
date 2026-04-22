@@ -133,7 +133,7 @@
 .card-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .main-content {
@@ -157,19 +157,23 @@
 .card__content {
     display: flex;
     flex-direction: column;
-    /*display: grid;
-    grid-template-columns: 1fr; */
     gap: 10px;
 }
 
 .card__content-title {
+    font-family: "IBM Plex mono", sans-serif;
+    font-size: 18px;
+    line-height: 23.4px;
     font-weight: 700;
     color: var(--content-title-color);
     align-self: stretch;
     align-items: start;
 }
 
-.concentration-card__content-subtitle {
+.card__content-subtitle {
+    font-family: "IBM Plex mono", sans-serif;
+    font-size: 18px;
+    line-height: 23.4px;
     font-weight: 400;
 }
 
