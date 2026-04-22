@@ -10,7 +10,7 @@
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 .header {
@@ -157,7 +157,7 @@
 .card__content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .card__content-title {
@@ -229,6 +229,9 @@
 }
 
 @media (width >=768px) {
+    .page {
+        gap: 60px;
+    }
     .header {
         grid-template-columns: 1fr 1fr;
     }
