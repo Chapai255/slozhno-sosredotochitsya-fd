@@ -174,9 +174,7 @@
     font-weight: 400;
 }
 
-.concentration h3 {
-    margin-bottom: 20px;
-}
+
 
 .card_annotation {
     font-weight: 400;
@@ -257,6 +255,10 @@
 
     .main-section {
         gap: 80px;
+    }
+
+    .concentration h3 {
+        margin-bottom: 20px;
     }
 
     .main-content {
