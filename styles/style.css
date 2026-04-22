@@ -157,7 +157,7 @@
 .card__content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .card__content-title {
@@ -267,7 +267,6 @@
     .gallery-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
     }
 
     .gallery-img:nth-child(1) {
