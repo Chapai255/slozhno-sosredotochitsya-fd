@@ -13,8 +13,23 @@
     --head-title-color: #DB00FF;
     --content-title-color: #000028;
     --main-text-color: #F1B2CE;
+    --rec-display: flex;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+.decorative-rec {
+    position: absolute;
+    top: 10px;
+    right: 20px; /* подвигать под макет */
+    font-family: "IBM Plex mono", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #FF0070;
+    display: var(--rec-display);
+    gap: 10px;
+    justify-content: center;
 }
