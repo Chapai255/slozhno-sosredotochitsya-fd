@@ -302,6 +302,10 @@
         grid-column: 1/-1;
     }
 
+    .gallery {
+        gap: 20px;
+    }
+
     .gallery-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
