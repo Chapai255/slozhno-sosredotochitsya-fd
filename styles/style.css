@@ -224,6 +224,7 @@
 .gallery {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .gallery-list {
@@ -363,10 +364,6 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-    }
-
-    .gallery {
-        grid-template-columns: 1fr;
     }
 
 }
